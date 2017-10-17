@@ -2,4 +2,11 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+
+.topNav {
+  background-color: #0288D1;
+  width: 100%;
+  overflow: hidden;
 }
