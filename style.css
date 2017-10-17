@@ -25,3 +25,14 @@ nav a {
 nav a:hover {
   color: #fff;
 }
+
+/* When the screen is less than 600px wide, hide all links,
+except for the first one ("home"). Show the link that what should open
+and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topNav a:not(:first-child) {display: none;}
+  .topNav a.icon{
+    float: right;
+    display: block;
+  }
+}
